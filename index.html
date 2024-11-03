@@ -1,117 +1,734 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Portfolio | Mehran Bazrafkan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mehran Bazrafkan | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="bootstrap.min.css">
-</head>
+	<!-- 
+	//////////////////////////////////////////////////////
 
-<body">
-    <div class="side-nav">
-        <a href="#home" id="home-link"><img src="src/side-bar/home-white.png" alt="home" class="icon"></a>
-        <a href="#about-me" id="about-me-link"><img src="src/side-bar/user-black.png" alt="about me" class="icon"></a>
-        <a href="#resume" id="resume-link"><img src="src/side-bar/briefcase-black.png" alt="resume" class="icon"></a>
-        <a href="#portfolio" id="portfolio-link"><img src="src/side-bar/carousel-black.png" alt="portfolio" class="icon"></a>
-        <a href="#testimonials" id="testimonials-link"><img src="src/side-bar/feedback-black.png" alt="testimonials" class="icon"></a>
-        <a href="#contact" id="contact-link"><img src="src/side-bar/send-black.png" alt="contact" class="icon"></a>
-    </div>
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
 
-    <div class="container1">
-        <!-- Home Section -->
-        <section id="home" class="row">
-            <div class="col-12 col-lg-6 height-100 order-1 order-lg-0">
-                <div class="home-description height-100">
-                    <h2 class="fw-bolder">Hi There!</h2><br>
-                    <h1><span class="fw-bolder">I’m</span><span id="user-name"> Mehran Bazrafkan</span></h1>
-                    <h3 class="px-2 py-1 lh-0">Backend Developer/AI Engineer</h3><br>
-                    <p>Results-driven Backend Software Engineer passionate about programming, with a strong foundation in mathematics and physics. Experienced in creating robust Rest APIs using .NET Core and C#. Skilled in TDD and BDD, adept at resolving code-related issues. Proficient in configuration management and version control, excelling in developing ERP, sales, CMS, and marketing systems. Seeking challenging projects to leverage technical expertise and innovative problem-solving skills.</p>
-                    <a href="#about-me" id="more-about-me"><button class="button text-bold text-larger text-white">MORE ABOUT ME</button></a>
-                </div>
-            </div>
-            <div class="col-12 col-lg-6 height-100 order-0 order-lg-1">
-                <img src="src/profile/profile-match size-B&W.jpg" alt="profile photo" class="col-12 height-100">
-            </div>
-        </section>
-        <!-- End of Home Section -->
+	//////////////////////////////////////////////////////
+	 -->
 
-        <!-- About Me Section -->
-        <section id="about-me" class="bg-gray">
-            <!-- Site Map -->
-            <div class="col-2">
-                <div class="height-40">
-                    <img src="src/profile/profile-match size-B&W.jpg" alt="profile photo" class="col-12 height-40">
-                </div>
-                <div class="height-60 bg-orange text-center content-center">
-                    <h3 class="text-black margin-20 text-bold">HOME</h3>
-                    <h3 class="text-white margin-20 text-bold">ABOUT ME</h3>
-                    <h3 class="text-black margin-20 text-bold">RESUME</h3>
-                    <h3 class="text-black margin-20 text-bold">PORTFOLIO</h3>
-                    <h3 class="text-black margin-20 text-bold">TESTIMONIALS</h3>
-                    <h3 class="text-black margin-20 text-bold">CONTACT</h3>
-                </div>
-            </div>
-            <!-- End of Site Map -->
-            
-            <!-- Page Section -->
-            <div class="col-10 height-100">
-                <div class="h-100 text-center align-content-center">
-                    <div class="m-5 p-5 border border-2 border-black h1 fw-bolder">ABOUT ME</div>
-                    <div class="h-75">
-                        <div class="h2">I'm <span class="fw-bolder">Mehran Bazrafkan</span>, Backend Developer/AI Engineer</div>
-                        <p>This is test.</p>
-                        <div class="d-flex">
-                            <div class="w-75">1</div>
-                            <div class="w-25">2</div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End of Page Section -->
-        </section>
-        <!-- End of About Me Section -->
+  	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
 
-        <section id="resume">
-            <!-- Site Map -->
-            <div class="col-2">
-                <div class="height-40">
-                    <img src="src/profile/profile-match size-B&W.jpg" alt="profile photo" class="col-12 height-40">
-                </div>
-                <div class="height-60 bg-orange text-center content-center">
-                    <h3 class="text-black margin-20 text-bold">HOME</h3>
-                    <h3 class="text-black margin-20 text-bold">ABOUT ME</h3>
-                    <h3 class="text-white margin-20 text-bold">RESUME</h3>
-                    <h3 class="text-black margin-20 text-bold">PORTFOLIO</h3>
-                    <h3 class="text-black margin-20 text-bold">TESTIMONIALS</h3>
-                    <h3 class="text-black margin-20 text-bold">CONTACT</h3>
-                </div>
-            </div>
-            <!-- End of Site Map -->
-            
-            <!-- Page Section -->
-            <div class="col-10 height-100">
-                resume
-            </div>
-            <!-- End of Page Section -->
-        </section>
+	<link href="https://fonts.googleapis.com/css?family=Space+Mono" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+	
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
 
-        <section id="portfolio">
-            <h1>portfolio</h1>
-        </section>
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
 
-        <section id="testimonials">
-            <h1>testimonials</h1>
-        </section>
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
 
-        <section id="contact">
-            <h1>contact</h1>
-        </section>
-    </div>
+	</head>
+	<body>
+		
+	<div class="fh5co-loader"></div>
+	
+	<div id="page">	
+	<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner" style="background-image:url(images/cover_bg_3.jpg);" data-stellar-background-ratio="0.5">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<div class="display-t js-fullheight">
+						<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+							<div class="profile-thumb" style="background: url(images/user-3.png);"></div>
+							<h1><span>Mehran Bazrafkan</span></h1>
+							<h3><span>Developer / AI Engineer</span></h3>
+							<p>
+								<ul class="fh5co-social-icons">
+									<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
+									<!-- <li><a href="#"><i class="icon-facebook2"></i></a></li> -->
+									<li><a href="https://www.linkedin.com/in/mehran-bazrafkan/"><i class="icon-linkedin2"></i></a></li>
+									<!-- <li><a href="#"><i class="icon-dribbble2"></i></a></li> -->
+								</ul>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
 
-    <script src="bootstrap.min.js"></script>
-    <script src="javascript.js"></script>
-</body>
+	<div id="fh5co-about" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>About Me</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="info">
+						<li><span class="first-block">Full Name:</span><span class="second-block">Mehran Bazrafkan</span></li>
+						<!-- <li><span class="first-block">Phone:</span><span class="second-block">+98 930 889 44 81</span></li> -->
+						<li><span class="first-block">Email:</span><span class="second-block">mhrn.bzrafkn.dev@gmail.com</span></li>
+						<!-- <li><span class="first-block">Website:</span><span class="second-block">www.yoursite.com</span></li> -->
+						<!-- <li><span class="first-block">Address:</span><span class="second-block">198 West 21th Street, Suite 721 New York NY 10016</span></li> -->
+						<li><span class="first-block">Location:</span><span class="second-block">Shiraz,</span></li>
+					</ul>
+				</div>
+				<div class="col-md-6">
+					<h2>Hello There!</h2>
+					<p>I'm an AI Engineer and Developer fascinated by the potential of 
+						artificial intelligence to transform how we solve complex 
+						problems. My work focuses on the exciting intersection of deep 
+						learning, generative AI, and reinforcement learning, where I strive 
+						to create intelligent systems that push the boundaries of what's possible.</p>
+					<p>My journey in AI has led me to specialize in developing sophisticated 
+						neural network architectures and training advanced generative 
+						models. I'm particularly passionate about the creative possibilities 
+						of generative AI and the problem-solving potential of reinforcement 
+						learning. From designing efficient deep learning solutions to implementing 
+						state-of-the-art generative models, I focus on creating AI systems that are not 
+						just technically sophisticated but also practically impactful. I believe we're 
+						just beginning to scratch the surface of what's possible with AI, and I'm excited 
+						to be part of this technological revolution, continuously exploring new approaches 
+						in deep learning and contributing to the advancement of AI technology.</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<!-- <li><a href="#"><i class="icon-twitter2"></i></a></li> -->
+							<!-- <li><a href="#"><i class="icon-facebook3"></i></a></li> -->
+							<li><a href="https://www.linkedin.com/in/mehran-bazrafkan/"><i class="icon-linkedin2"></i></a></li>
+							<!-- <li><a href="#"><i class="icon-dribbble2"></i></a></li> -->
+						</ul>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 
+	<div id="fh5co-resume" class="fh5co-bg-color">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Resume</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12 col-md-offset-0">
+					<ul class="timeline">
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Work Experience</h3></div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Career Break</h3>
+									<span class="company">Professional development - Nov 2024 - Present</span>
+								</div>
+								<div class="timeline-body">
+									<p>I took a career break to focus on obtaining an IELTS certificate, dedicating 
+										this time to intensive language study to support my future career goals in 
+										AI and technology.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">AI Engineer</h3>
+									<span class="company">Prata Technology - Aug 2024 - Nov 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>After my internship, I advanced to an AI Engineer role, where I design 
+										and implement machine learning and deep learning models, optimize algorithms, and 
+										integrate AI solutions into Prata Technology’s products.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">AI Engineer - Internship</h3>
+									<span class="company">Prata Technology - Jun 2024 - Aug 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>As an AI Engineering Intern, I gained hands-on experience with 
+										data preprocessing, model training, and deploying machine 
+										learning algorithms, contributing to foundational AI solutions.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Front-End Developer</h3>
+									<span class="company">Prata Technology - May 2024 - Aug 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>In this role, I built responsive web applications with Vue.js, 
+										including a Power BI-like app with interactive data visualizations. 
+										While my main focus was front-end development, I continued advancing my 
+										skills in AI and machine learning on the side.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Career Break</h3>
+									<span class="company">Professional Development - May 2023 - May 2024</span>
+								</div>
+								<div class="timeline-body">
+									<p>During this career break, I expanded my skills in AI, backend, and frontend 
+										development. I deepened my understanding of neural networks by creating a 
+										C# library for training neural networks and experimented with implementing 
+										a GAN model (DCGAN) to prepare for future AI roles.</p>
+								</div>
+							</div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Back-End Developer</h3>
+									<span class="company">Taav System - Feb 2022 - May 2023</span>
+								</div>
+								<div class="timeline-body">
+									<p>After completing my internship, I advanced to a Junior Back-End Developer 
+										role, where I further developed my skills in API integration, database 
+										management, and implementing clean and onion architectures for scalable 
+										applications.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-suitcase"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Back-End Developer - Internship</h3>
+									<span class="company">Taav System - Dec 2021 - Jan 2022</span>
+								</div>
+								<div class="timeline-body">
+									<p>Started my software development journey as a Backend Developer 
+										Intern at Taav System, learning clean architecture principles 
+										and API development.</p>
+								</div>
+							</div>
+						</li>
+
+						<br>
+						<li class="timeline-heading text-center animate-box">
+							<div><h3>Education</h3></div>
+						</li>
+						<li class="timeline-inverted animate-box">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Masters Degree</h3>
+									<span class="company">Apadana university of Shiraz - Sept 2024 - Present</span>
+								</div>
+								<div class="timeline-body">
+									<p>I began my Master's program in AI Engineering, focusing on advanced 
+										topics in artificial intelligence and machine learning. This program aims to enhance 
+										my expertise in AI technologies and their practical applications, preparing me for 
+										innovative contributions in the field.</p>
+								</div>
+							</div>
+						</li>
+						<li class="animate-box timeline-unverted">
+							<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
+							<div class="timeline-panel">
+								<div class="timeline-heading">
+									<h3 class="timeline-title">Bachelors Degree</h3>
+									<span class="company">Zand university of Shiraz - Sept 2018 - Dec 2023</span>
+								</div>
+								<div class="timeline-body">
+									<p>I earned my Bachelor's degree in Computer Engineering, where I developed 
+										a strong foundation in software development, algorithms, and system architecture. 
+										This program equipped me with essential technical skills and a deep understanding 
+										of computer systems, laying the groundwork for my future endeavors in technology.</p>
+								</div>
+							</div>
+						</li>
+			    	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="fh5co-features" class="animate-box">
+		<div class="container">
+			<div class="services-padding">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>My Services</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-paintbrush"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Web Development</h3>
+								<p>Creating robust and scalable web applications using modern technologies, 
+									including Vue.js and C#, to deliver seamless user experiences.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-briefcase"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>AI Solutions</h3>
+								<p>Designing and implementing AI-driven applications and machine learning 
+									models to solve complex problems and enhance user engagement.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-search"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Data Visualization</h3>
+								<p>Developing interactive data visualizations and dashboards, leveraging 
+									tools and technologies to present insights effectively.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-md-4 text-center">
+
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-bargraph"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Backend Development</h3>
+								<p>Building secure and efficient backend systems with RESTful APIs 
+									and database management, ensuring smooth integration with 
+									front-end applications.</p>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-genius"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Technical Support</h3>
+								<p>Providing expert support and maintenance for web applications, 
+									ensuring optimal performance and addressing user needs effectively.</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="col-md-4 text-center">
+						<div class="feature-left">
+							<span class="icon">
+								<i class="icon-chat"></i>
+							</span>
+							<div class="feature-copy">
+								<h3>Consulting & Strategy</h3>
+								<p>Offering guidance on technology adoption and implementation strategies, 
+									helping businesses leverage AI and web technologies for growth.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-skills" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Skills</h2>
+				</div>
+			</div>
+			<!-- <div class="row row-pb-md">
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Machine Learning</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Neural Networks</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>C# Programming</strong>90%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Web Development</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Backend Development</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>Data Visualization</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="85"><span><strong>AI Model Deployment</strong>85%</span></div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12 text-center">
+					<div class="chart" data-percent="90"><span><strong>Problem Solving</strong>90%</span></div>
+				</div>
+			</div> -->
+			<div class="row">
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Machine Learning</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Neural Networks</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-2 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">C# Programming</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Web Development</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-4 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="progress-wrap">
+						<h3><span class="name-left">Backend Development</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-5 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Data Visualization</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-striped active" role="progressbar"
+						  aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">AI Model Deployment</span><span class="value-right">85%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-1 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width:85%">
+						  </div>
+						</div>
+					</div>
+					<div class="progress-wrap">
+						<h3><span class="name-left">Problem Solving</span><span class="value-right">90%</span></h3>
+						<div class="progress">
+						  <div class="progress-bar progress-bar-3 progress-bar-striped active" role="progressbar"
+						  aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div id="fh5co-work" class="fh5co-bg-dark">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Projects</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-1.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-2.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Brading</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-3.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-4.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Design</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-5.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Website</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-6.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-7.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Brading</span>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-3 text-center col-padding animate-box">
+					<a href="#" class="work" style="background-image: url(images/portfolio-8.jpg);">
+						<div class="desc">
+							<h3>Project Name</h3>
+							<span>Illustration</span>
+						</div>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div> -->
+
+	<!-- <div id="fh5co-blog">
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Post on Medium</h2>
+					<p>Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-1.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Photoshoot On The Street</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-2.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Surfing at Philippines</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="fh5co-blog animate-box">
+						<a href="#" class="blog-bg" style="background-image: url(images/portfolio-3.jpg);"></a>
+						<div class="blog-text">
+							<span class="posted_on">Mar. 15th 2016</span>
+							<h3><a href="#">Capture Living On Uderwater</a></h3>
+							<p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+							<ul class="stuff">
+								<li><i class="icon-heart2"></i>249</li>
+								<li><i class="icon-eye2"></i>308</li>
+								<li><a href="#">Read More<i class="icon-arrow-right22"></i></a></li>
+							</ul>
+						</div> 
+					</div>
+				</div>
+			</div>
+		</div>
+	</div> -->
+	
+	<div id="fh5co-started" class="fh5co-bg-dark">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>Hire Me!</h2>
+					<p>
+						I am an enthusiastic AI Engineer and developer with a strong foundation 
+						in machine learning, neural networks, and web technologies, equipped to 
+						tackle complex challenges and deliver innovative solutions. I am eager 
+						to apply my skills in dynamic environments, whether in tech or academia. 
+						If you're seeking a dedicated professional passionate about technology and 
+						committed to excellence, let's connect! I welcome exciting opportunities to 
+						leverage my expertise and advance in AI and development.
+					</p>
+					<!-- <p><a href="#" class="btn btn-default btn-lg">Contact Me</a></p> -->
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="fh5co-consult">
+		<div class="video fh5co-video" style="background-image: url(images/cover_bg_1.jpg);">
+			<div class="overlay"></div>
+		</div>
+		<div class="choose animate-box">
+			<h2>Contact</h2>
+			<form action="#">
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+					</div>
+				</div>
+				<div class="row form-group">
+					<div class="col-md-6">
+						<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="email" class="form-control" placeholder="Your email address">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+					</div>
+				</div>
+
+				<div class="row form-group">
+					<div class="col-md-12">
+						<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+					</div>
+				</div>
+				<div class="form-group">
+					<input type="submit" value="Send Message" class="btn btn-primary">
+				</div>
+
+			</form>	
+		</div>
+	</div>
+
+	<!-- <div id="map" class="fh5co-map"></div> -->
+	
+	<div id="fh5co-footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						&copy; 2024 Mehran Bazrafkan. All Rights Reserved. <br>
+						Crafted with expertise in AI, Machine Learning, and Web Development. <br>
+						Connect with me to explore innovative solutions and elevate your projects. <br>
+						<!-- Images sourced from <a href="http://unsplash.com" target="_blank">Unsplash</a> -->
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+	
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Stellar Parallax -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Easy PieChart -->
+	<script src="js/jquery.easypiechart.min.js"></script>
+	<!-- Google Map -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCefOgb1ZWqYtj7raVSmN4PL2WkTrc-KyA&sensor=false"></script>
+	<script src="js/google_map.js"></script>
+	
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	</body>
 </html>
